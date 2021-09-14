@@ -14,11 +14,8 @@ content:
   filter_button:
   - name: All
     tag: '*'
-  - name: Django
-    tag: Django
-  - name: Other
-    tag: Demo
-
+  - name: Python
+    tag: Python
 design:
   columns: '2'
 

@@ -2,4 +2,4 @@ baseURL = "https://nanoy.fr/"
 languageCode = "en-us"
 title = "Yoann Piétri"
 theme = "academic"
-ignorefiles = [ "themes/academic/content/*"]
+ignorefiles = ["themes/academic/content/*"]

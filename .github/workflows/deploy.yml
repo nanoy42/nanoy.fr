@@ -24,10 +24,11 @@ jobs:
         run: hugo --minify
 
       - name: Deploy on server
-        uses: appleboy/scp-action@master
+        uses: burnett01/rsync-deployments@5.1
         with:
-          host: ${{ secrets.HOST }}
-          username: ${{ secrets.USERNAME }}
-          key: ${{ secrets.KEY }}
-          source: "./public/*"
-          target: ${{ secrets.TARGET }}
+          switches: -avzr --delete
+          remote_host: ${{ secrets.HOST }}
+          remote_user: ${{ secrets.USERNAME }}
+          remote_key: ${{ secrets.KEY }}
+          path: "./public/*"
+          remote_path: ${{ secrets.TARGET }}

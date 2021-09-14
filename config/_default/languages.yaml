@@ -1,0 +1,37 @@
+# Languages
+#   Create a section for each of your site's languages.
+#   Documentation: https://wowchemy.com/docs/guide/language/
+
+# Default language
+en:
+  languageCode: en-us
+  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
+  contentDir: content/en
+
+# Uncomment the lines below to configure your website in a second language.
+fr:
+ languageCode: fr
+ contentDir: content/fr
+ title: Yoann Piétri
+ params:
+   description: Site personnel de Yoann Piétri
+ menu:
+   main:
+      - name: À propos
+        url: '#about'
+        weight: 10
+      - name: Billets
+        url: '#posts'
+        weight: 20
+      - name: Projets
+        url: '#projects'
+        weight: 30
+      - name: Publications
+        url: '#publications'
+        weight: 50
+      - name: Cours
+        url: courses/
+        weight: 60
+      - name: Contact
+        url: '#contact'
+        weight: 70

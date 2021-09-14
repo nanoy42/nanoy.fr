@@ -29,5 +29,5 @@ jobs:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USERNAME }}
           key: ${{ secrets.KEY }}
-          source: "./public"
+          source: "./public/*"
           target: ${{ secrets.TARGET }}

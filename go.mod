@@ -1,9 +1,8 @@
-module github.com/wowchemy/starter-academic
+module nanoy.fr
 
 go 1.15
 
 require (
-	github.com/wowchemy/wowchemy-hugo-modules/wowchemy v0.0.0-20210422192724-bfa3808cb6ec // indirect
-	github.com/wowchemy/wowchemy-hugo-modules/wowchemy-cms v0.0.0-20210422192724-bfa3808cb6ec // indirect
-	github.com/wowchemy/wowchemy-hugo-modules/wowchemy-cms/v5 v5.0.0-20210912234819-c9831b5c1e21 // indirect
+	github.com/wowchemy/wowchemy-hugo-modules/wowchemy-cms/v5 v5.0.0-20211122231030-d26f01d5d6c3 // indirect
+	github.com/wowchemy/wowchemy-hugo-modules/wowchemy/v5 v5.0.0-20211223211901-f7a91f5217bb // indirect
 )

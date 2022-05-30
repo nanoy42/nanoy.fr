@@ -19,8 +19,4 @@ feature:
   description: Beginner
   icon: ":de:"
   icon_pack: emoji
-- name: Italian
-  description: Beginner
-  icon: ":it:"
-  icon_pack: emoji
 ---

@@ -26,6 +26,9 @@ fr:
       - name: Projets
         url: '#projects'
         weight: 30
+      - name: Évènements
+        url: '#events'
+        weight: 40
       - name: Publications
         url: '#publications'
         weight: 50

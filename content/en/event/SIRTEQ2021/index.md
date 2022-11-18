@@ -18,7 +18,7 @@ summary: SIRTEQ Annual Meeting 2021
 #   End time can optionally be hidden by prefixing the line with `#`.
 date: "2021-11-26T08:30:00Z"
 date_end: "2021-11-26T17:00:00Z"
-all_day: false
+all_day: true
 
 # Schedule page publish date (NOT talk date).
 publishDate: "2022-08-30T00:00:00Z"

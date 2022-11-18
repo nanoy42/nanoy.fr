@@ -20,7 +20,7 @@ summary: ICIQP2022 - International Conference on Integrated Quantum Photonics 20
 #   End time can optionally be hidden by prefixing the line with `#`.
 date: 2022-10-05T11:09:00+02:00
 date_end: 2022-10-07T11:17:00+02:00
-all_day: false
+all_day: true
 
 # Schedule page publish date (NOT event date).
 publishDate: 2022-10-08T11:00:00+02:00
@@ -41,11 +41,11 @@ image:
 
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
-# links:
-# - name: Follow
-#   url: https://twitter.com
-#   icon_pack: fab
-#   icon: twitter
+links:
+- name: HAL
+  url: https://hal.archives-ouvertes.fr/hal-03836637v1
+  icon_pack: fas
+  icon: archive
 
 # Optional filename of your slides within your event's folder or a URL.
 url_slides:

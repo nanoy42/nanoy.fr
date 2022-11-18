@@ -13,7 +13,7 @@ summary: International Conference on Quantum Cryptography 2022
 #   End time can optionally be hidden by prefixing the line with `#`.
 date: "2022-08-29T08:30:00Z"
 date_end: "2022-07-02T17:00:00Z"
-all_day: false
+all_day: true
 
 # Schedule page publish date (NOT talk date).
 publishDate: "2022-08-30T00:00:00Z"
@@ -31,5 +31,11 @@ url_code: ""
 url_pdf: ""
 url_slides: ""
 url_video: ""
+
+links:
+- name: HAL
+  url: https://hal.archives-ouvertes.fr/hal-03836631v1
+  icon_pack: fas
+  icon: archive
 
 ---

@@ -19,4 +19,8 @@ feature:
   description: Beginner
   icon: ":de:"
   icon_pack: emoji
+- name: Spanish
+  description: Beginner
+  icon: ":es:"
+  icon_pack: emoji
 ---

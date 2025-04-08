@@ -59,6 +59,18 @@ sections:
         {{< /spoiler >}}
     design:
       columns: '1'
+  - block: cta-button-list
+    content:
+      # Need a custom icon?
+      # Add an SVG image to the `assets/media/icons/` folder and reference it in the `icon` field below
+      buttons:
+        - text: Read my PhD thesis
+          icon: hero/book-open
+          url: https://thesis.nanoy.fr
+    design:
+      spacing:
+        # Customize the section spacing. Order is top, right, bottom, left.
+        padding: ['0', '0', '0', '0']
   - block: collection
     id: papers
     content:

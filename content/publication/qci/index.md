@@ -1,23 +1,27 @@
 ---
-title: "Integrated InP-based transmitter for Continuous-Variable Quantum Key Distribution"
+title: "Quantum Key Distribution with Efficient Post-Quantum Cryptography-Secured Trusted Node on a Quantum Network"
 authors:
-- Jennifer Aldama
-- Samael Sarmiento
-- Luis Trigo Vidarte
-- Sebastian Etcheverry
-- Ignacio López Grande
-- Lorenzo Castelvero
-- Alberto Hinojosa
-- Tobias Beckerwerth
 - nanoy
+- Pierre-Enguerrand Veriier
+- Baptiste Lacour
+- Maxime Gautier
+- Heming Huang
+- Thomas Camus
+- Jean-Sébastien Pegon
+- Martin Zuber
+- Jean-Charles Faugère
+- Matteo Schiavon
 - Amine Rhouni
+- Yves Jaouën
+- Nicolas Fabre
+- Romain Alléaume
+- Thomas Rivera
 - Eleni Diamanti
-- Valerio Pruneri
-date: "2025-02-18T00:00:00Z"
-doi: "10.1364/OE.550386"
+date: "2025-04-02T00:00:00Z"
+doi: "10.48550/arXiv.2504.01454"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2025-02-18T00:00:00Z"
+publishDate: "2025-04-02T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -25,21 +29,21 @@ publishDate: "2025-02-18T00:00:00Z"
 publication_types: ["article"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Opt. Express 33, 8139-8149 (2025)"
+publication: ""
 publication_short: ""
 
-abstract: "Developing quantum key distribution (QKD) systems using monolithic photonic integrated circuits (PICs) can accelerate their adoption by a wide range of markets, thanks to the potential reduction in size, complexity of the overall system, power consumption, and production cost. In this work, we design, fabricate and characterize an InP-based PIC transmitter for continuous-variable (CV) QKD applications. In a proof-of-principle experiment implementing a pulsed Gaussian-modulated coherent state (GMCS) CV-QKD protocol over an optical fiber channel of 11 km, the system showed a performance compatible with a secret key rate of 78 kbps in the asymptotic regime. These results show the potential of InP technologies to integrate CV-QKD systems onto a monolithic platform. "
+abstract: "Quantum Key Distribution (QKD) enables two distant users to exchange a secret key with information-theoretic security, based on the fundamental laws of quantum physics. While it is arguably the most mature application of quantum cryptography, it has inherent limitations in the achievable distance and the scalability to large-scale infrastructures. While the applicability of QKD can be readily increased with the use of intermediary trusted nodes, this adds additional privacy requirements on third parties. In this work, we present an efficient scheme leveraging a trusted node with lower privacy requirements thanks to the use of post-quantum cryptographic techniques, and implement it on a deployed fiber optic quantum communication network in the Paris area. "
 
 # Summary. An optional shortened abstract.
 summary: 
 
 tags:
-  - CV-QKD
+  - QKD
 
 featured: false
 
 links:
-url_pdf: https://arxiv.org/pdf/2412.03208
+url_pdf: https://arxiv.org/pdf/2504.01454
 url_code: 
 url_dataset: ''
 url_poster: ''

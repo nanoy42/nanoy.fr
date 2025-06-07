@@ -1,0 +1,5 @@
+module:
+  hugoVersion:
+    extended: false
+    max: "0.145.0"
+

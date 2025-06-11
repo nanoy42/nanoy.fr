@@ -34,6 +34,7 @@ abstract: "Developing quantum key distribution (QKD) systems using monolithic ph
 summary: 
 
 tags:
+  - Chips
   - CV-QKD
 
 featured: false

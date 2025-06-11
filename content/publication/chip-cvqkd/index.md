@@ -30,6 +30,7 @@ abstract: Quantum key distribution (QKD) is a prominent application in the field
 # Summary. An optional shortened abstract.
 summary: 
 tags:
+  - Chips
   - CV-QKD
 featured: true
 

@@ -20,12 +20,12 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Post-Doctoral Researcher
+role: Maître de Conférences (Associate Professor)
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Università degli Studi di Padova
-    url: https://quantumfuture.dei.unipd.it/
+  - name: Sorbonne Université
+    url: https://www.lip6.fr/actualite/personnes-fiche.php?ident=P1722
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
@@ -88,12 +88,20 @@ education:
       - Third year specialization replaced by an international Master program.
       - Engineering diploma awarded on 2021-07-09.
 work:
+  - position: Associate Professor
+    company_name: Associate Professor
+    company_url: 'https://www.sorbonne-universite.fr/'
+    company_logo: ''
+    date_start: 2025-09-01
+    date_end: ''
+    summary: |-
+      Experimental Quantum Cryptography, Integrated Photonics for Quantum Technologies, Energetic analysis of Quantum Cryptography, Experimental continuous variables beyond Quantum Key Distribution
   - position: Postdoctoral researcher
     company_name: Università degli Studi di Padova
     company_url: ''
     company_logo: ''
     date_start: 2025-01-13
-    date_end: ''
+    date_end: 2025-08-31
     summary: |-
       Development of novel Quantum Cryptography protocols.
 
@@ -140,4 +148,4 @@ languages:
 
 ## About Me
 
-I am a Post Doctoral researcher at the University of Padova in Italy working on experimental Quantum Technologies, in particular Quantum Communication. I graduated my PhD in Sorbonne Université in Paris, working principally on Quantum Key Distribution and integration. I now continue on working on those subjects and more in Padova !
+I am a Maître de Conférences (Associate Professor) at Sorbonne Université. My research is focused on experimental Quantum Technologies, in particular Quantum Communication. I graduated my PhD in Sorbonne Université in Paris, working principally on Quantum Key Distribution and integration. I now continue on working on those subjects and more !

@@ -13,8 +13,8 @@ authors:
 - Roberto Osellame
 - Marco Avesani
 
-date: "2025-06-11T00:00:00Z"
-doi: "10.48550/arXiv.2506.08924"
+date: "2026-02-01T00:00:00Z"
+doi: "10.1117/1.AP.8.1.016009"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2024-06-11T00:00:00Z"
@@ -41,7 +41,7 @@ featured: true
 # links:
 # - name: ""
 #   url: ""
-url_pdf: https://arxiv.org/pdf/2506.08924
+url_pdf: https://www.spiedigitallibrary.org/journalArticle/Download?urlId=10.1117%2F1.AP.8.1.016009
 url_code: ''
 url_dataset: ''
 url_poster: ''

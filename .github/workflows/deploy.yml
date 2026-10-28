@@ -10,13 +10,13 @@ jobs:
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
         with:
           submodules: true
           fetch-depth: 0
 
       - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
+        uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: '0.145.0'
           extended: true
@@ -25,11 +25,14 @@ jobs:
         run: hugo --minify
 
       - name: Deploy on server
-        uses: burnett01/rsync-deployments@5.1
-        with:
-          switches: -avzr --delete
-          remote_host: ${{ secrets.HOST }}
-          remote_user: ${{ secrets.USERNAME }}
-          remote_key: ${{ secrets.KEY }}
-          path: "./public/*"
-          remote_path: ${{ secrets.TARGET }}
+        env:
+          DEPLOY_KEY: ${{ secrets.KEY }}
+          KNOWN_HOSTS: ${{ secrets.KNOWN_HOSTS }}
+          REMOTE: ${{ secrets.USERNAME }}@${{ secrets.HOST }}
+        run: |
+          install -d -m 700 ~/.ssh
+          printf '%s\n' "$DEPLOY_KEY" > ~/.ssh/deploy_key && chmod 600 ~/.ssh/deploy_key
+          printf '%s\n' "$KNOWN_HOSTS" >> ~/.ssh/known_hosts
+          rsync -rlptzv --delete --chmod=D755,F644 \
+            -e "ssh -i ~/.ssh/deploy_key -o IdentitiesOnly=yes" \
+            ./public/ "$REMOTE":/
